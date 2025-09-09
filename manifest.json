@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "YouTube WatchLater Wrangler",
-  "version": "1.0",
+  "version": "1.1.0",
   "description": "Select, manage, and bulk-remove videos from YouTube Watch Later with range select, cancel, and pause.",
   "author": "Jonathan Foye",
   "icons": {
@@ -10,7 +10,6 @@
     "48": "Images/icon-48.png",
     "128": "Images/icon-128.png"
   },
-  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/*"],
